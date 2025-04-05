@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">VirginMoney</string>
+    <string name="email_content_description" />
+    <string name="phone_content_description" />
+    <string name="job_title_content_description" />
+    <string name="name_content_description" />
+</resources>
