@@ -7,6 +7,9 @@ data class Person(
     val lastName: String,
     val email: String,
     val phone: String,
-    val jobTitle: String
+    val jobTitle: String,
+    val name: String,
 )
+
+
 
