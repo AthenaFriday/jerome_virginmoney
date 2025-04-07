@@ -84,6 +84,8 @@ dependencies {
         ksp (libs.processor )// Use the latest version
 
 
+        implementation (libs.material) // Check for the latest version
+
 
     // Testing dependencies
         testImplementation (libs.junit)

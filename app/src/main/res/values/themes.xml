@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <style name="Theme.VirginMoney" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.VirginMoney" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/cardview_light_background</item>
+        <item name="colorOnPrimary">@color/design_default_color_background</item>
+        <!-- Add other theme attributes as needed -->
+    </style>
 </resources>
+
