@@ -83,6 +83,10 @@ dependencies {
         // KSP dependency for Kotlin
         ksp (libs.processor )// Use the latest version
 
+    // Jetpack Navigation component
+    implementation (libs.androidx.navigation.fragment.ktx)
+    implementation (libs.androidx.navigation.ui.ktx)
+
 
         implementation (libs.material) // Check for the latest version
 

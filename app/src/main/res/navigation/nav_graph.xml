@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/peopleFragment">
+
+    <!-- People Fragment -->
+    <fragment
+        android:id="@+id/peopleFragment"
+        android:name="com.android.virginmoney.ui.people.PeopleFragment"
+        android:label="People Directory"
+        tools:layout="@layout/fragment_people" >
+        <action
+            android:id="@+id/action_people_to_rooms"
+            app:destination="@id/roomsFragment" />
+    </fragment>
+
+    <!-- Rooms Fragment -->
+    <fragment
+        android:id="@+id/roomsFragment"
+        android:name="com.android.virginmoney.ui.rooms.RoomsFragment"
+        android:label="Rooms List"
+        tools:layout="@layout/fragment_rooms">
+        <action
+            android:id="@+id/action_rooms_to_people"
+            app:destination="@id/peopleFragment" />
+    </fragment>
+
+</navigation>
